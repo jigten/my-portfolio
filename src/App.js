@@ -1,5 +1,5 @@
 import './App.css';
-import { NavBar, About, Contact, Work, Header } from './components';
+import { NavBar, Skills, Contact, Work, Header } from './components';
 import { useEffect } from 'react';
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div className='App'>
       <NavBar></NavBar>
       <Header></Header>
-      <About></About>
       <Work></Work>
+      <Skills></Skills>
       <Contact></Contact>
     </div>
   );

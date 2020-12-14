@@ -1,12 +1,11 @@
 function Header() {
     return (
-        <section class="header container">
-            <h2>Ugyen Jigten Dorji</h2>
+        <section className="header">
+            <h2>Hi, I'm Jigten</h2>
             <p>
-                Soufflé sesame snaps dragée. Cotton candy bear claw jelly sweet roll jelly beans.
-                Liquorice danish candy canes lollipop candy biscuit gingerbread cake.
-                Sugar plum topping marshmallow dessert pudding donut croissant.
-          </p>
+                Computer Scientist | Web Developer | Data Scientist
+            </p>
+            <button className="btn">Connect With Me</button>
         </section>
     )
 }

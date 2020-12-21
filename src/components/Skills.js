@@ -6,11 +6,11 @@ function Skills() {
         <div className="skills">
             <h2>Skills</h2>
             <div className="skill-icons">
-                <FontAwesomeIcon size="4x" icon={faJs} />
-                <FontAwesomeIcon size="4x" icon={faReact} />
-                <FontAwesomeIcon size="4x" icon={faNodeJs} />
-                <FontAwesomeIcon size="4x" icon={faPython} />
-                <FontAwesomeIcon size="4x" icon={faGit} />
+                <FontAwesomeIcon size="3x" icon={faJs} />
+                <FontAwesomeIcon size="3x" icon={faReact} />
+                <FontAwesomeIcon size="3x" icon={faNodeJs} />
+                <FontAwesomeIcon size="3x" icon={faPython} />
+                <FontAwesomeIcon size="3x" icon={faGit} />
             </div>
         </div>
     )

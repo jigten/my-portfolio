@@ -82,6 +82,10 @@ button.btn:hover{
 
 /* work section */
 .work {
+  padding-bottom: 5%;
+}
+
+.work h2 {
   text-align: center;
 }
 
@@ -127,6 +131,10 @@ button.btn:hover{
 }
 
 /* skills section */
+.skills {
+  padding-bottom: 5%;
+}
+
 .skills h2 {
   text-align: center;
 }
@@ -136,3 +144,28 @@ button.btn:hover{
   justify-content: space-around;
 }
 
+/* contact section */
+.contact {
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-socials a {
+  padding: 10%;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact span {
+  margin-top: 10px;
+}
